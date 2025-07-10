@@ -1,0 +1,57 @@
+#bar{
+    color: #f5bde6;
+    display: flex;
+    justify-content: space-between;
+    align-content: center; 
+    
+    margin: {
+        left: 2vw;
+        right: 2vw;
+        bottom: 5vh;
+    };    
+
+    button, a{
+        color: #f5bde6;
+        background-color: #00000000;
+        text-decoration: none;
+        padding: none;
+        border: none;
+
+        &:hover{
+            transition: all .3s ease;
+            color: #ff94e3;
+            text-decoration: underline;
+        }
+    }
+    
+    #left, #right{
+        width: 5vw;
+    }
+    
+    #middle{
+        width: 10vw;
+    }
+
+    div{
+        background-color: #515782;
+
+        padding: {
+            left: 1vw;
+            right: 1vw;
+            top: .2vw;
+            bottom: .2vw;
+        };
+
+        
+
+
+        text-align: center;
+
+        border-radius: 0.2em;
+
+        display: flex;
+        justify-content: space-evenly;
+
+        
+    }
+}

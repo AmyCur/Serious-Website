@@ -1,0 +1,24 @@
+---
+const { format = 'HH:MM:SS' } = Astro.props;
+---
+
+<!-- Store the message prop as a data attribute. -->
+<astro-greet data-message={format}>
+  
+</astro-greet>
+
+<script>
+    class TimeText extends HTMLElement {
+        connectedCallback() {
+            let date = new Date();
+            let time = 
+            `
+                ${date.getHours.toString()}:
+                ${date.getMinutes.toString()}:
+                ${date.getSeconds.toString()}
+            `
+        }
+    }
+
+  customElements.define('time-text', TimeText);
+</script>

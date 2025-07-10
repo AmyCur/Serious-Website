@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/topbar.astro';
+
+
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<title>Work</title>
+	<Topbar />
+
+    <div id="text">
+        <h1>Work</h1>
+        <div class="row">
+            <div class="block">
+                <h2 onclick="ScrollToElement(this)">Project 1</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block">
+                In 202X i worked on this project blah blah blah. 
+                I worked with blah blah blah and all that. I used the skills
+                of blah blah blah and blah blah blah to blah blah blah
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="block">
+                <h2 onclick="ScrollToElement(this)">Project 2</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block">
+                In 202X i worked on this project blah blah blah. 
+                I worked with blah blah blah and all that. I used the skills
+                of blah blah blah and blah blah blah to blah blah blah
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="block">
+                <h2 onclick="ScrollToElement(this)">Project 3</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block">
+                In 202X i worked on this project blah blah blah. 
+                I worked with blah blah blah and all that. I used the skills
+                of blah blah blah and blah blah blah to blah blah blah
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="block">
+                <h2 onclick="ScrollToElement(this)">Project 4</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block">
+                In 202X i worked on this project blah blah blah. 
+                I worked with blah blah blah and all that. I used the skills
+                of blah blah blah and blah blah blah to blah blah blah
+            </div>
+        </div>
+    </div>
+
+
+
+</Layout>
+
+<script lang="js">
+    function ScrollToElement(element) {
+        const content = element.textContent;
+        console.log(content);
+        
+        element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+</script>

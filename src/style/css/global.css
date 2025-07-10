@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+html {
+  background-color: #181825;
+  color: white;
+}
+
+* {
+  font-family: "TikTok Sans", sans-serif;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+#text {
+  margin-left: 10vw;
+}
+#text .block {
+  width: 20vw;
+  margin-right: 5vw;
+}
+
+img {
+  border-radius: 1em 1em 0em 0em;
+}
+
+/*# sourceMappingURL=global.css.map */

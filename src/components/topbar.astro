@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../style/css/top-bar.css'
+
+---
+<Layout>
+	<div id="bar">
+        <div id="left">
+            Left-Bar
+        </div>
+        <div id="middle">
+            <a href="/"><button>Home</button></a>
+            <a href="/work"><button>Work</button></a>
+            <a href="/about-me"><button>About me</button></a>
+        </div>
+        <div id="right">
+            <a href="https://github.com/AmyCur">My Github</a>
+        </div>
+    </div>
+</Layout>
+
+<script>
+    function UpdateTime(){
+        document.getElementById("left")!.innerHTML =
+            new Date()
+            .toTimeString()
+            .slice(0, 8)
+        ;
+    }
+
+    UpdateTime();
+    setInterval(() => {
+        UpdateTime();
+    }, 1000);
+    
+</script>

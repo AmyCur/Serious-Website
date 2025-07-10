@@ -1,0 +1,40 @@
+#bar {
+  color: #f5bde6;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 5vh;
+}
+#bar button, #bar a {
+  color: #f5bde6;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  padding: none;
+  border: none;
+}
+#bar button:hover, #bar a:hover {
+  transition: all 0.3s ease;
+  color: #ff94e3;
+  text-decoration: underline;
+}
+#bar #left, #bar #right {
+  width: 5vw;
+}
+#bar #middle {
+  width: 10vw;
+}
+#bar div {
+  background-color: #515782;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.2vw;
+  padding-bottom: 0.2vw;
+  text-align: center;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=top-bar.css.map */

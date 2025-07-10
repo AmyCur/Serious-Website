@@ -1,0 +1,11 @@
+<script lang="js">
+function ScrollToElement(element) {
+    const content = element.textContent;
+    console.log(content);
+    
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+}
+</script>

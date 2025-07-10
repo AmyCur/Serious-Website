@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/topbar.astro';
+import Banner from '../components/banner.astro';
+import '../style/css/home.css'
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<title>Home</title>
+	<Topbar />
+
+
+	<div id="text">
+		<h1>Home</h1>	
+		
+			
+		<div id="intro">
+			<div class="block" id="left">
+				<p>Hi! 👋</p>
+				<div id="column">
+					<p>
+						My name's Dylan, im a Games developer from England with experience
+						XXXX XX XXXXXX XX XX X XXX XXXX XXXX X XX XXXX XXXXX XXXXX XX X XX	
+					</p>
+					<a href="/work"><button>View Projects</button></a>
+				</div>	
+								
+			</div>		
+		</div>
+	</div>
+
+	<Banner>
+		<div class="banner-item">
+			<!-- Uses img but should use image -->
+			<img src="https://avatars.githubusercontent.com/u/126205426?v=4" alt="">
+			Talk about qualifications here
+		</div>
+		<div class="banner-item">
+			<img src="https://avatars.githubusercontent.com/u/126205426?v=4" alt="">
+			IOther stuff here
+		</div>
+		<div class="banner-item">
+			<img src="https://avatars.githubusercontent.com/u/126205426?v=4" alt="">
+			OMG im so qualified
+		</div>
+	</Banner>
+
+	
+
+</Layout>
