@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Topbar from '../components/topbar.astro';
+import TopBanner from '../components/top_banner.astro';
 import Banner from '../components/banner.astro';
 import '../style/css/home.css'
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -9,15 +9,22 @@ import '../style/css/home.css'
 
 <Layout>
 	<title>Home</title>
-	<Topbar />
+	<TopBanner />
 
 
-	<div id="text">
-		<h1>Home</h1>	
-		
-			
+	<div id="text">	
 		<div id="intro">
-			<div class="block" id="left">
+			<div class="block">
+				<p>Hi! 👋</p>
+				<div id="column">
+					<p>
+						My name's Dylan, im a Games developer from England with experience
+						XXXX XX XXXXXX XX XX X XXX XXXX XXXX X XX XXXX XXXXX XXXXX XX X XX	
+					</p>
+					<a href="/work"><button>View Projects</button></a>
+				</div>				
+			</div>	
+			<div class="block">
 				<p>Hi! 👋</p>
 				<div id="column">
 					<p>
@@ -27,7 +34,18 @@ import '../style/css/home.css'
 					<a href="/work"><button>View Projects</button></a>
 				</div>	
 								
-			</div>		
+			</div>	
+			<div class="block">
+				<p>Hi! 👋</p>
+				<div id="column">
+					<p>
+						My name's Dylan, im a Games developer from England with experience
+						XXXX XX XXXXXX XX XX X XXX XXXX XXXX X XX XXXX XXXXX XXXXX XX X XX	
+					</p>
+					<a href="/work"><button>View Projects</button></a>
+				</div>	
+								
+			</div>				
 		</div>
 	</div>
 
@@ -35,15 +53,15 @@ import '../style/css/home.css'
 		<div class="banner-item">
 			<!-- Uses img but should use image -->
 			<img src="https://avatars.githubusercontent.com/u/126205426?v=4" alt="">
-			Talk about qualifications here
+			So qualified
 		</div>
 		<div class="banner-item">
 			<img src="https://avatars.githubusercontent.com/u/126205426?v=4" alt="">
-			IOther stuff here
+			So qualified
 		</div>
 		<div class="banner-item">
 			<img src="https://avatars.githubusercontent.com/u/126205426?v=4" alt="">
-			OMG im so qualified
+			So qualified	
 		</div>
 	</Banner>
 

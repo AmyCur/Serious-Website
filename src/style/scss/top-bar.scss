@@ -7,7 +7,7 @@
     margin: {
         left: 2vw;
         right: 2vw;
-        bottom: 5vh;
+        bottom: 0vh;
     };    
 
     button, a{
@@ -24,6 +24,10 @@
         }
     }
     
+    #left, #right, #middle{
+        margin-top: 1vh;
+    }
+
     #left, #right{
         width: 5vw;
     }
@@ -54,4 +58,27 @@
 
         
     }
+}
+
+body{
+    margin-top: 0px;
+}
+
+#top-banner{
+    // background-image: url("https://cdn2.unrealengine.com/fortnite-blitz-royale-1920x1080-9946411a3a9f.jpg");
+    background-color: #242438;
+    height: 20vh;
+    width: 100vw;
+
+    h1{
+        font-size: 3em;
+        margin: 0px;
+        text-align: center;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
 }

@@ -13,12 +13,8 @@ button {
   border: none;
 }
 
-#text {
-  margin-left: 10vw;
-}
 #text .block {
   width: 20vw;
-  margin-right: 5vw;
 }
 
 img {
